@@ -7,12 +7,14 @@ h1{
 h2{
     font-size: 70px;
     text-align: center;
+    color: gray;
 }
 h3{
     font-size: 35px;
 }
 p{
     font-size: 30px;
+    color: gray;
 }
 .middle{
     text-align: center;
@@ -34,7 +36,10 @@ p{
 }
 .half-width img{
     width: 60%;
-    image-resolution: 100px;
+    image-resolution: 1000px;
+}
+.picture img{
+    width: 100%;
 }
 .go-here-button{
     text-decoration: none;
@@ -43,7 +48,7 @@ p{
     border-radius: 40px;
     font-size: 40px;
     color: whitesmoke;
-    box-shadow: 1px 5px 5px 5px gray;
+    box-shadow: 5px 5px 25px gray;
 }
 
 .middle-banner{
@@ -63,6 +68,7 @@ p{
 .food-item img{
     width: 90%;
     margin: 3%;
+    margin-top: 26px ;
     border-radius: 20px;
 }
 #first-food{
@@ -76,6 +82,6 @@ p{
 }
 footer{
     position: absolute;
-    background-color: rgb(185, 40, 40);
+    background-color: black;
     width: 100%;
 }
